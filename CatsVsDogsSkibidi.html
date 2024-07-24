@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="file:///C:/Users/SteamP1nk/OneDrive/Рабочий%20стол/HTML/first%20website/CatsVsDogsCSS.css">
+  </head>
+  <body>
+    <fieldset>
+    <h1 id="title">CATS VS DOGS</h1>
+    <p id="description">Let us know who's the king of people's hearts!</p>
+    <form id="survey-form">
+      <h3>Please, enter your info</h3>
+<!--name-->      
+      <label id="name-label">Enter your name: <input id="name" type="text" required placeholder="name"></input><br>
+<!--email-->       
+      <label id="email-label">Enter your email: <input id="email" type="email" required placeholder="email"></input><br>
+<!--age-->       
+      <label id="number-label">Enter your age (optional): <input id="number" type="number" min="10" max="120" placeholder="10-120"></input>
+      <h3>What is your favorite animal?</h3>
+        <select id="dropdown">
+         <option value="">Please choose your favorite animal!</option>
+          <option value="dog" id="dog">Dog🐶</option>
+          <option value="cat" id="cat">Cat🐱</option>
+        </select><br>
+      <label id="radio-label">
+      <h3>What animal do you have?</h3>
+        <input type="radio" checked name="radio" value="i-have-dog"> I have a dog myself</input><br>
+        <input type="radio" checked name="radio" value="i-have-cat"> I have a cat myself</input><br>
+        <input type="radio" name="radio" value="i-have-both"> I have both a dog and a cat</input><br>
+        <input type="radio" name="radio" value="i-dont-have"> I don't have any :(</input><br>
+        <h3>Why did you choose so?</h3>
+        <label id="why">
+        <input type="checkbox" value="own"> I have such a pet myself</input><br>
+        <input type="checkbox" value="loving"> They are more loving</input><br>
+        <input type="checkbox" value="energetic"> They are more energetic</input><br>
+        <input type="checkbox" value="cute"> They are cuter</input><br>
+        <input type="checkbox" value="playful"> They are more playful</input><br>
+        <input type="checkbox" value="other"> Other reason (comment, please)</input><br>
+        </label>
+        <textarea id="textarea" placeholder="Your comments here)"></textarea><br><br>
+        <button id="submit">Submit</submit>
+    </form>
+    </fieldset>
+  </body>
+</html>
